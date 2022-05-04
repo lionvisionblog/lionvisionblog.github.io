@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lionvisionblog.github.io</id>
     <title>LionVision`s Blog</title>
-    <updated>2022-05-04T08:50:14.653Z</updated>
+    <updated>2022-05-04T08:51:40.657Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lionvisionblog.github.io"/>
     <link rel="self" href="https://lionvisionblog.github.io/atom.xml"/>
@@ -41,6 +41,29 @@
         </link>
         <updated>2022-04-02T09:20:35.000Z</updated>
         <content type="html"><![CDATA[<p>https://lionvision.oss-cn-beijing.aliyuncs.com/img/sunrise-king-KJXo2v5hhyk-unsplash.jpeg</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ ]]></title>
+        <id>https://lionvisionblog.github.io/post/about/</id>
+        <link href="https://lionvisionblog.github.io/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h1 id="博主是谁">👨‍💻 博主是谁</h1>
+<blockquote>
+<p>一位喜欢尝试各种事物，技能全面的设计师。善于分析和解决用户的问题。</p>
+</blockquote>
+<h1 id="兴趣爱好">⛹ 兴趣爱好</h1>
+<blockquote>
+<p>除了白天的工作之外，我还热衷于学习新的东西，比如C4D、绘画、编码、动画等等。</p>
+</blockquote>
+<h1 id="联系我呀">📬 联系我呀</h1>
+<blockquote>
+<p>微信➡️jaylee90</p>
+</blockquote>
 ]]></content>
     </entry>
     <entry>
