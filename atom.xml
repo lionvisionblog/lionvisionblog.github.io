@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lionvisionblog.github.io</id>
     <title>LionVision`s Blog</title>
-    <updated>2022-07-27T08:50:22.569Z</updated>
+    <updated>2022-08-26T09:54:48.430Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lionvisionblog.github.io"/>
     <link rel="self" href="https://lionvisionblog.github.io/atom.xml"/>
@@ -10,6 +10,35 @@
     <logo>https://lionvisionblog.github.io/images/avatar.png</logo>
     <icon>https://lionvisionblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, LionVision`s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[二八定律]]></title>
+        <id>https://lionvisionblog.github.io/post/er-ba-ding-lu/</id>
+        <link href="https://lionvisionblog.github.io/post/er-ba-ding-lu/">
+        </link>
+        <updated>2022-08-26T08:52:34.000Z</updated>
+        <content type="html"><![CDATA[<p>帕累托法则又称二八定律，指大部分系统中的少数变量决定了多数结果，需要识别并提取最重要的 20%。该定律由约瑟夫·朱兰（Joseph M. Juran）根据意大利经济学家帕累托（Vilfredo Pareto）观察到的现象 —— 意大利约有 80％ 的土地由 20％ 的人口所有，80% 的豌豆产量来自 20% 的植株 —— 发展而来。</p>
+<h3 id="来源与推导过程">来源与推导过程</h3>
+<p>资料显示，此概念是意大利经济学家帕累托（Vilfredo Pareto）发现的，在他的第一篇文章《政治经济学》中提到：意大利约有 80％ 的土地由 20％ 的人口所有，80% 的豌豆产量来自 20% 的植株等等。该原则在现今企业管理中广泛运用，例如：「80％ 的销售额来自 20％ 的客户」。理查德·科赫（Richard Koch）撰写了一本「80/20」原则，展示了帕累托原则在企业管理和生活中的实际应用。在数学上，帕累托法则大体上跟随着一组特定参数的幂定律分布（也称帕累托分布），许多自然现象也呈现如此分布。</p>
+<blockquote>
+<p>Clark, J. B., and Vilfredo Pareto. 1896. &quot;Cours D&quot;economie Politique.&quot;. Political Science Quarterly 11 (4): 750. doi:10.2307/2139634.<br>
+Koch, R., 1999. The 80/20 principle. 2nd ed. Currency.</p>
+</blockquote>
+<h3 id="解读与应用案例">解读与应用案例</h3>
+<p>表单设计中，可以默认选中一个最常用的选项，提高用户的填写效率和用户体验。<br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/2f0eb674f38eafe5498a1bb0a10897fd7a64a2db.png" alt="" loading="lazy"></p>
+<h3 id="边界与限制">边界与限制</h3>
+<p>有资料提出，帕累托法则更适合用于分析竞品，可能并不适合规划。因为在前期规划时我们并不知道完整的结果，也无法合理的辨别出哪些工作将会是真正有用的 20%；同时人们总是有意无意中倾向于做更少的工作，同时可能会更关注于有趣的部分而带有主观意识的进行切割。</p>
+<blockquote>
+<p><a href="https://www.johndcook.com/blog/2009/02/03/obstacles-to-applying-pareto-rule/">D, John. 2009. &quot;Four Reasons We Don’t Apply The 80/20 Rule&quot;. John D. Cook | Applied Mathematics Consulting</a></p>
+</blockquote>
+<h3 id="更多阅读">更多阅读</h3>
+<blockquote>
+<p><a href="https://lawsofux.com/en/pareto-principle/">Pareto Principle</a><br>
+<a href="https://ux360.design/80-20-rule-design/">Using Pareto 80/20 Rule in UX design</a><br>
+<a href="https://www.webdesignerdepot.com/2011/02/the-8020-rule-applied-to-web-design/">The 80/20 Rule Applied to Web Design</a></p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[设计系统手册-介绍设计系统-01]]></title>
         <id>https://lionvisionblog.github.io/post/she-ji-xi-tong-shou-ce-jie-shao-she-ji-xi-tong-01/</id>
