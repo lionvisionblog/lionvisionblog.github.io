@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lionvisionblog.github.io</id>
     <title>LionVision`s Blog</title>
-    <updated>2023-01-30T07:56:10.308Z</updated>
+    <updated>2023-01-31T10:05:21.342Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lionvisionblog.github.io"/>
     <link rel="self" href="https://lionvisionblog.github.io/atom.xml"/>
@@ -10,6 +10,49 @@
     <logo>https://lionvisionblog.github.io/images/avatar.png</logo>
     <icon>https://lionvisionblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, LionVision`s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[齿轮易创-官网升级改版]]></title>
+        <id>https://lionvisionblog.github.io/post/chi-lun-yi-chuang-guan-wang-sheng-ji-gai-ban/</id>
+        <link href="https://lionvisionblog.github.io/post/chi-lun-yi-chuang-guan-wang-sheng-ji-gai-ban/">
+        </link>
+        <updated>2023-01-30T08:02:11.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<h3 id="公司简介">公司简介</h3>
+<blockquote>
+<p>齿轮易创成立于2016年，是国内领先的创新性IT解决方案服务商，致力于通过咨询、产品设计及软件工程助力企业开启创新的互联网转型和信息化作业。<br>
+在此项目期间，由我主导公司官网的设计工作，整个过程中文哥和高姐给予我充分的信任和帮助，解决了很多困难，让项目顺利的上线，总而言之是非常愉快的合作，在此非常感谢🙏</p>
+</blockquote>
+<h3 id="项目概览">项目概览</h3>
+<p>由于此次官网升级需要符合公司的风格，也就是在原有的基础上进行提升，就很难有质的提升，或者做的不符合公司调性。所以在前期也和项目负责人多次进行了约饭、约咖啡（主要还是商讨工作😜），初期也尝试了很多风格（包括3D、线性、扁平等），大多都不太符合公司形象，原型图也有不确定的地方。这里就体现出设计执行前充分的沟通以及了解需求的重要性了，大家也不要在不了解的情况下就知道闷头做，否则就会越做越离谱、费力不讨好。当然如何真正了解需求也是有一些技巧的，就不在这里展开了。在充分的沟通了解后，也进行了一些尝试，最终确定了官网的整体风格，采用的是2.5D插画，以及克制的配色和动效，让整体质感有很大的提升，主要还是尽量减轻网页的信息量，在通过合理的排版，让页面整体更加清晰也更加专业，从而更容易获得客户的信任～<br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/%E6%96%B0%E9%BD%BF%E8%BD%AE%E5%AE%98%E7%BD%91.png" alt="" loading="lazy"></p>
+<h3 id="概念和插图创意">概念和插图创意</h3>
+<p>之前我有提到，开始尝试了多种风格...<br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/fengge.png" alt="" loading="lazy"><br>
+多次尝试以及确定之后，最终采用2.5d插画的概念设定，是比较符合科技互联网公司的风格，又对相关资料进行了拓展和一系列概念元素的补全。<br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/yuansu.png" alt="" loading="lazy"><br>
+然后又把各个业务中的二级页面banner主图元素进行了绘制，融合进多场景的业务中。<br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/chahua.png" alt="" loading="lazy"><br>
+在公司官网多个业务当中应用，把插图中的很多元素做成了插画库，维持住公司的设计资产，帮助公司在宣传运营中减少了很多成本，同时提升了业务的专业性和品牌的成长性。</p>
+<h3 id="插画系统-设计资产">插画系统-设计资产</h3>
+<p>为了更容易了解插画系统的构成原则，我采用原子设计理论作为这套原则的核心支撑。原子设计作为制作插画系统提供了清晰的方法，设计团队通过实际的设计流程与步骤，能更好的去理解插画系统的概念。原子设计理论可分为 5 个阶段：原子、分子、组织、模板、场景。<br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/%E5%8E%9F%E5%AD%90%E8%AE%BE%E8%AE%A1%E7%90%86%E8%AE%BA.png" alt="" loading="lazy"><br>
+相信设计师们在工作中都会用到组件库，其实插画库都原理和组件库都是相通的，把当中的元素替换成插画素材即可，当然制作这些设计资产需要严谨哦～（层级、命名、颜色等等）不然后期维护可就闹心了😵‍💫<br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/cengji.gif" alt="" loading="lazy"><br>
+原子设计理论最早是由国外前端开发工程师 Brad Frost 提出的，他从化学元素周期表中得到启发，想要深入了解可以查看大佬的书 <a href="https://atomicdesign.bradfrost.com/">《Atomic Design》</a>，👈我就不赘述啦～<br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/atomic_design.png" alt="" loading="lazy"><br>
+插画系统作为设计系统的分支，是对产品插图的整体性概括，其本质是“文档规范”与“设计资产”的集合，用于提供一定的原则、方法、标准与素材，帮助设计师系统化、高质量的完成设计输出，同时提升设计效率，将设计师从重复的劳动中解放出来，免受搬砖之苦👻</p>
+<h3 id="项目规范">项目规范</h3>
+<p>这次的项目只是官网升级，我这里就做了pc官网的设计规范出来，方便公司相关人员了解整体的框架和细节，也方便后期的调整，极大的提高今后的可拓展性。<br>
+<img src="https://lionvisionblog.github.io/post-images/1675075615861.png" alt="" loading="lazy"></p>
+<h3 id="总结">总结</h3>
+<p>回顾整个项目，其中有很多坎坷，但更多的还是帮客户解决了问题，虽然办法有很多种，但最重要的还是要找到最合适客户的办法，这是难点所在，也是艺术和设计的区别。</p>
+<h5 id="更多阅读">更多阅读</h5>
+<blockquote>
+<p><a href="https://chilunyc.com/">齿轮易创官网 https://chilunyc.com/</a><br>
+<a href="https://atomicdesign.bradfrost.com/">《Atomic Design》 https://atomicdesign.bradfrost.com/</a></p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[二八定律]]></title>
         <id>https://lionvisionblog.github.io/post/er-ba-ding-lu/</id>
