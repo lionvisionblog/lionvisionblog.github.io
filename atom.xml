@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lionvisionblog.github.io</id>
     <title>LionVision</title>
-    <updated>2023-03-08T07:31:13.730Z</updated>
+    <updated>2023-03-08T10:01:19.313Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lionvisionblog.github.io"/>
     <link rel="self" href="https://lionvisionblog.github.io/atom.xml"/>
@@ -11,11 +11,11 @@
     <icon>https://lionvisionblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, LionVision</rights>
     <entry>
-        <title type="html"><![CDATA[绚星云学习APP定制化设计]]></title>
-        <id>https://lionvisionblog.github.io/post/xuan-xing-yun-xue-xi-app-ding-zhi-hua-she-ji/</id>
-        <link href="https://lionvisionblog.github.io/post/xuan-xing-yun-xue-xi-app-ding-zhi-hua-she-ji/">
+        <title type="html"><![CDATA[YUI Design System 2.0]]></title>
+        <id>https://lionvisionblog.github.io/post/yui-design-system-20/</id>
+        <link href="https://lionvisionblog.github.io/post/yui-design-system-20/">
         </link>
-        <updated>2023-02-16T15:09:51.000Z</updated>
+        <updated>2023-01-10T09:10:12.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
 <blockquote>
 <p>绚星云学习丨版本2.0<br>
@@ -23,37 +23,57 @@
 为大型企业提供互联网培训整体解决方案，助力企业建立高效的互联网培训管理系统。由于组织架构调整，此项目由我主导<br>
 地址：中国，北京，东城区国中商业大厦国中商业大厦</p>
 </blockquote>
-<h3 id="设计系统应用范围">设计系统应用范围</h3>
-<p>3个终端：PC管理、PC前台、移动。<br>
-6类通用：基础组件、全局样式、导航、数据展示、数据显示、反馈  。<br>
-3类业务：≥3个业务方使用的组件<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingxt1.png" alt="" loading="lazy"></p>
-<h3 id="为什么-如何升级20">为什么 &amp; 如何升级2.0？</h3>
-<p>1.由于1.0版本先产出了组件，后搭建页面，也投入了大量的资源，但在业务、设计师等使用时还是有很大的不一致，差异等问题。<br>
-2.随着业务的发展，领域的划分，升级了2.0版本，但目前占比仅为19%, 组件工具整体占比为79%，需要优化提升组件体验，加快工具协同效率，提升协同效率。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingxt2.png" alt="" loading="lazy"><br>
-<strong>将复杂的问题简单化，提出如下解决方案：</strong><br>
-· 收集现有组件问题并解决<br>
-· 重新对组件进行归类<br>
-· 规范与工具的对照<br>
-· 产出解决方案<br>
-· 修复问题<br>
-· 通过审核<br>
-· 确认并发布</p>
-<h3 id="可交互的设计系统">可交互的设计系统</h3>
-<p>组件库是 YUI 的核心，特别是基础 Web组件的设计需要投入许多的耐心与各种状态下的细节考量。在这一方面，我们设计部自己前端实现了基础 WebUl 控件的可交互 Demo 来用于验证设计，我们也倾向于设计需要在真实数据和真实场景中得到反馈的理念。有了真实可交互的 Demo 过后，我们发现了很多在一纸设计稿中难以考虑到的情况，透过一步步修正来完善设计。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingxt3.png" alt="" loading="lazy"></p>
-<h3 id="团队协作">团队协作</h3>
+<h3 id="可交互的线上系统">可交互的线上系统</h3>
+<p>组件库是 YUI 的核心，特别是基础Web组件的设计需要投入许多的耐心与各种状态下的细节考量。在这一方面，我们设计部前端实现了基础WebUl控件来用于验证设计，我们也倾向于设计需要在真实数据和真实场景中得到反馈的理念。有了真实可交互的Demo过后，我们发现了很多在一纸设计稿中难以考虑到的情况，透过一步步修正来完善设计。<br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xx1.png" alt="" loading="lazy"></p>
+<h3 id="团队协同">团队协同</h3>
 <p>我们团队在 YUI 构建过程中协作方式的探索让我们更加紧密。起初 YUI 的设计工具我们依然用的 Sketch，像 Sketch 这样基于本地文件的设计工具或多或少在多人协作时会遇到同步的问题，有时候稍有放松对流程的管理便会导致后续的麻烦。设计团队里的资源不透明，一而再，再而三重复设计相同的元素，增加设计投入成本（人力及时间）。所以，我们快速转到了 Figma 中，虽然前期会有一些学习成本或者是语言上的问题（Figma中文插件－FigmacN），但这些都瑕不掩瑜，Figma 带给我们团队协作的提升是非常明显的，特别是 FigmaPlugin 上线后更是在操作层面带来了进一步的增强。<br>
-我们用 confluence 进行项目管理，透明的进度追踪和任务分配对于一个大型设计项目来说尤为重要，当然 jira 做得也非常棒，相对于开发我们还是比较依赖 confluence 来做设计任务的管理。<br>
+我们用 confluence 进行项目管理，透明的进度追踪和任务分配对于一个大型设计项目来说尤为重要，当然 jira 做得也非常棒，相对于开发我们还是比较依赖confluence 来做设计任务的管理。<br>
 <img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingxt4.png" alt="" loading="lazy"></p>
-<h3 id="今天的-yui">今天的 YUI</h3>
+<h3 id="今天的yui">今天的YUI</h3>
 <p>组件库是YUI的核心，特别是基础Web组件的设计需要投入许多的耐心与各种状态下的细节考量。在这一方面，我们设计部自己前端实现了基础WebUl控件的可交互Demo来用于验证设计，我们也倾向于设计需要在真实数据和真实场景中得到反馈的理念。有了真实可交互的Demo过后，我们发现了很多在一纸设计稿中难以考虑到的情况，透过一步步修正来完善设计。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingxt5.png" alt="" loading="lazy"><br>
-部分组件展示：<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingxt6.png" alt="" loading="lazy"></p>
-<h3 id="困难与挑战">困难与挑战</h3>
-<p>经验主义让我们退缩。对搭建设计系统，从前涉及过的团队成员不是很多，需要帮带执行，而且还是着手做像「设计系统升级」这样重要的项目。不过幸运的是，我们尚能在庞大的互联网中找到许多优秀的设计系统进行学习和借鉴，在这个方面一点也不用忌违或是回避，我们确实在没经验的情况下向各个设计系统学习了很多。一切开始之前是要让团队成员看到价值。这件事做与不做，成功与否，最终效果如何和大家投入的热情程度，我觉得让团队成员理解到这是一个有价值的项目是非常有必要的。毕竟大家都不想投入精力在一个价值产出比失衡的事情上我们平常手上都有其他的任务，时间安排便成了一个问题。不得不说，虽然对构建设计系统没有经验，但是能够想到这一件耗时耗力的事情。那就需要有一个统筹的任务计划来对时间进行合理的安排。</p>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xx2.png" alt="" loading="lazy"><br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xx3.png" alt="" loading="lazy"><br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xx4.png" alt="" loading="lazy"></p>
+<h4 id="收集的问题分类归因定义优先级">收集的问题分类归因，定义优先级</h4>
+<p>为系统性的解决问题，所以对于问题的来源进行的了几个维度的总结，并对这几个维度分别定义其目标，多个维度会有重合，为了避免问题重复和无效问题，针对收集上来的问题进行查重、筛选进行了问题的归因，考虑到时间、人员成本的原因，所以针对所有的优化需求进行了综合评估。</p>
+<h4 id="制定工具的里程碑和小目标">制定工具的里程碑和小目标</h4>
+<p>1.整理收集到的问题<br>
+2.按照 6 大分类进行归纳/查重<br>
+3.规范与工具的对照<br>
+4.解决工具（样式错乱、状态缺失）问题？<br>
+5.保持三端工具命名一致？<br>
+6.工具宣导（工具使用的新手引导）<br>
+7.补齐规范已确认的工具</p>
+<h4 id="解决方案">解决方案</h4>
+<p>p0/p1问题相对应设计师分别点对点解决<br>
+p2/p3根据具体问题分析得出，重新全面升级工具结构的方案<br>
+工具结构梳理修改<br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xx5.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[绚星云学习APP定制化设计]]></title>
+        <id>https://lionvisionblog.github.io/post/xuan-xing-yun-xue-xi-app-ding-zhi-hua-she-ji/</id>
+        <link href="https://lionvisionblog.github.io/post/xuan-xing-yun-xue-xi-app-ding-zhi-hua-she-ji/">
+        </link>
+        <updated>2022-12-16T15:09:51.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<blockquote>
+<p>绚星云学习丨版本2.0<br>
+定制化体验设计升级丨Designer Lee<br>
+为大型企业提供互联网培训整体解决方案，助力企业建立高效的互联网培训管理系统。由于组织架构调整，此项目由我主导<br>
+地址：中国，北京，东城区国中商业大厦国中商业大厦</p>
+</blockquote>
+<p><img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp1.png" alt="" loading="lazy"><br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp2.png" alt="" loading="lazy"><br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp3.png" alt="" loading="lazy"><br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp4.png" alt="" loading="lazy"><br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp5.png" alt="" loading="lazy"><br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp6.png" alt="" loading="lazy"><br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp7.png" alt="" loading="lazy"><br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp8.png" alt="" loading="lazy"><br>
+<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp9.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
@@ -61,7 +81,7 @@
         <id>https://lionvisionblog.github.io/post/yun-xue-tang-xuan-xing-xuan-chuan-guan-wang/</id>
         <link href="https://lionvisionblog.github.io/post/yun-xue-tang-xuan-xing-xuan-chuan-guan-wang/">
         </link>
-        <updated>2023-02-01T07:23:49.000Z</updated>
+        <updated>2022-11-10T07:23:49.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
 <h3 id="概述">概述</h3>
 <blockquote>
@@ -106,7 +126,7 @@
         <id>https://lionvisionblog.github.io/post/chi-lun-yi-chuang-guan-wang-sheng-ji-gai-ban/</id>
         <link href="https://lionvisionblog.github.io/post/chi-lun-yi-chuang-guan-wang-sheng-ji-gai-ban/">
         </link>
-        <updated>2023-01-30T08:02:11.000Z</updated>
+        <updated>2022-10-30T08:02:11.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
 <h3 id="公司简介">公司简介</h3>
 <blockquote>
@@ -141,35 +161,6 @@
 <blockquote>
 <p><a href="https://chilunyc.com/">齿轮易创官网 https://chilunyc.com/</a><br>
 <a href="https://atomicdesign.bradfrost.com/">《Atomic Design》 https://atomicdesign.bradfrost.com/</a></p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[二八定律]]></title>
-        <id>https://lionvisionblog.github.io/post/er-ba-ding-lu/</id>
-        <link href="https://lionvisionblog.github.io/post/er-ba-ding-lu/">
-        </link>
-        <updated>2022-08-26T08:52:34.000Z</updated>
-        <content type="html"><![CDATA[<p>帕累托法则又称二八定律，指大部分系统中的少数变量决定了多数结果，需要识别并提取最重要的 20%。该定律由约瑟夫·朱兰（Joseph M. Juran）根据意大利经济学家帕累托（Vilfredo Pareto）观察到的现象 —— 意大利约有 80％ 的土地由 20％ 的人口所有，80% 的豌豆产量来自 20% 的植株 —— 发展而来。</p>
-<h3 id="来源与推导过程">来源与推导过程</h3>
-<p>资料显示，此概念是意大利经济学家帕累托（Vilfredo Pareto）发现的，在他的第一篇文章《政治经济学》中提到：意大利约有 80％ 的土地由 20％ 的人口所有，80% 的豌豆产量来自 20% 的植株等等。该原则在现今企业管理中广泛运用，例如：「80％ 的销售额来自 20％ 的客户」。理查德·科赫（Richard Koch）撰写了一本「80/20」原则，展示了帕累托原则在企业管理和生活中的实际应用。在数学上，帕累托法则大体上跟随着一组特定参数的幂定律分布（也称帕累托分布），许多自然现象也呈现如此分布。</p>
-<blockquote>
-<p>Clark, J. B., and Vilfredo Pareto. 1896. &quot;Cours D&quot;economie Politique.&quot;. Political Science Quarterly 11 (4): 750. doi:10.2307/2139634.<br>
-Koch, R., 1999. The 80/20 principle. 2nd ed. Currency.</p>
-</blockquote>
-<h3 id="解读与应用案例">解读与应用案例</h3>
-<p>表单设计中，可以默认选中一个最常用的选项，提高用户的填写效率和用户体验。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/2f0eb674f38eafe5498a1bb0a10897fd7a64a2db.png" alt="" loading="lazy"></p>
-<h3 id="边界与限制">边界与限制</h3>
-<p>有资料提出，帕累托法则更适合用于分析竞品，可能并不适合规划。因为在前期规划时我们并不知道完整的结果，也无法合理的辨别出哪些工作将会是真正有用的 20%；同时人们总是有意无意中倾向于做更少的工作，同时可能会更关注于有趣的部分而带有主观意识的进行切割。</p>
-<blockquote>
-<p><a href="https://www.johndcook.com/blog/2009/02/03/obstacles-to-applying-pareto-rule/">D, John. 2009. &quot;Four Reasons We Don’t Apply The 80/20 Rule&quot;. John D. Cook | Applied Mathematics Consulting</a></p>
-</blockquote>
-<h3 id="更多阅读">更多阅读</h3>
-<blockquote>
-<p><a href="https://lawsofux.com/en/pareto-principle/">Pareto Principle</a><br>
-<a href="https://ux360.design/80-20-rule-design/">Using Pareto 80/20 Rule in UX design</a><br>
-<a href="https://www.webdesignerdepot.com/2011/02/the-8020-rule-applied-to-web-design/">The 80/20 Rule Applied to Web Design</a></p>
 </blockquote>
 ]]></content>
     </entry>
@@ -210,6 +201,13 @@ Koch, R., 1999. The 80/20 principle. 2nd ed. Currency.</p>
 <td style="text-align:center">🌟🌟🌟🌟🌟</td>
 <td style="text-align:center">设计</td>
 <td style="text-align:right"><a href="https://www.aliyundrive.com/s/WqWhtDsfjnQ" target="_blank">下载.pdf</a></td>
+</tr>
+<tr>
+<td style="text-align:left">...</td>
+<td style="text-align:center">...</td>
+<td style="text-align:center">...</td>
+<td style="text-align:center">...</td>
+<td style="text-align:right">...</td>
 </tr>
 </tbody>
 </table>
