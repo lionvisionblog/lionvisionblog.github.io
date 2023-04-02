@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lionvisionblog.github.io</id>
     <title>LionVision</title>
-    <updated>2023-03-08T10:11:21.874Z</updated>
+    <updated>2023-04-02T06:28:27.096Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lionvisionblog.github.io"/>
     <link rel="self" href="https://lionvisionblog.github.io/atom.xml"/>
@@ -11,157 +11,242 @@
     <icon>https://lionvisionblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, LionVision</rights>
     <entry>
-        <title type="html"><![CDATA[YUI Design System 2.0]]></title>
-        <id>https://lionvisionblog.github.io/post/yui-design-system-20/</id>
-        <link href="https://lionvisionblog.github.io/post/yui-design-system-20/">
+        <title type="html"><![CDATA[AI绘画Midjourney入门]]></title>
+        <id>https://lionvisionblog.github.io/post/yan-jiu-san-tian-zhong-yu-ba-ai-hui-hua-gei-zheng-ru-men-liao/</id>
+        <link href="https://lionvisionblog.github.io/post/yan-jiu-san-tian-zhong-yu-ba-ai-hui-hua-gei-zheng-ru-men-liao/">
         </link>
-        <updated>2023-01-10T09:10:12.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<blockquote>
-<p>绚星云学习丨版本2.0<br>
-定制化体验设计升级丨Designer Lee<br>
-为大型企业提供互联网培训整体解决方案，助力企业建立高效的互联网培训管理系统。由于组织架构调整，此项目由我主导<br>
-地址：中国，北京，东城区国中商业大厦国中商业大厦</p>
-</blockquote>
-<h3 id="可交互的线上系统">可交互的线上系统</h3>
-<p>组件库是 YUI 的核心，特别是基础Web组件的设计需要投入许多的耐心与各种状态下的细节考量。在这一方面，我们设计部前端实现了基础WebUl控件来用于验证设计，我们也倾向于设计需要在真实数据和真实场景中得到反馈的理念。有了真实可交互的Demo过后，我们发现了很多在一纸设计稿中难以考虑到的情况，透过一步步修正来完善设计。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xx1.png" alt="" loading="lazy"></p>
-<h3 id="团队协同">团队协同</h3>
-<p>我们团队在 YUI 构建过程中协作方式的探索让我们更加紧密。起初 YUI 的设计工具我们依然用的 Sketch，像 Sketch 这样基于本地文件的设计工具或多或少在多人协作时会遇到同步的问题，有时候稍有放松对流程的管理便会导致后续的麻烦。设计团队里的资源不透明，一而再，再而三重复设计相同的元素，增加设计投入成本（人力及时间）。所以，我们快速转到了 Figma 中，虽然前期会有一些学习成本或者是语言上的问题（Figma中文插件－FigmacN），但这些都瑕不掩瑜，Figma 带给我们团队协作的提升是非常明显的，特别是 FigmaPlugin 上线后更是在操作层面带来了进一步的增强。<br>
-我们用 confluence 进行项目管理，透明的进度追踪和任务分配对于一个大型设计项目来说尤为重要，当然 jira 做得也非常棒，相对于开发我们还是比较依赖confluence 来做设计任务的管理。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingxt4.png" alt="" loading="lazy"></p>
-<h3 id="今天的yui">今天的YUI</h3>
-<p>组件库是YUI的核心，特别是基础Web组件的设计需要投入许多的耐心与各种状态下的细节考量。在这一方面，我们设计部自己前端实现了基础WebUl控件的可交互Demo来用于验证设计，我们也倾向于设计需要在真实数据和真实场景中得到反馈的理念。有了真实可交互的Demo过后，我们发现了很多在一纸设计稿中难以考虑到的情况，透过一步步修正来完善设计。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xx2.png" alt="" loading="lazy"><br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xx3.png" alt="" loading="lazy"><br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xx4.png" alt="" loading="lazy"></p>
-<h4 id="收集的问题分类归因定义优先级">收集的问题分类归因，定义优先级</h4>
-<p>为系统性的解决问题，所以对于问题的来源进行的了几个维度的总结，并对这几个维度分别定义其目标，多个维度会有重合，为了避免问题重复和无效问题，针对收集上来的问题进行查重、筛选进行了问题的归因，考虑到时间、人员成本的原因，所以针对所有的优化需求进行了综合评估。</p>
-<h4 id="制定工具的里程碑和小目标">制定工具的里程碑和小目标</h4>
-<p>1.整理收集到的问题<br>
-2.按照 6 大分类进行归纳/查重<br>
-3.规范与工具的对照<br>
-4.解决工具（样式错乱、状态缺失）问题？<br>
-5.保持三端工具命名一致？<br>
-6.工具宣导（工具使用的新手引导）<br>
-7.补齐规范已确认的工具</p>
-<h4 id="解决方案">解决方案</h4>
-<p>p0/p1问题相对应设计师分别点对点解决<br>
-p2/p3根据具体问题分析得出，重新全面升级工具结构的方案<br>
-工具结构梳理修改<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xx5.png" alt="" loading="lazy"></p>
+        <updated>2023-04-02T06:15:00.000Z</updated>
+        <content type="html"><![CDATA[<p>https://www.zcool.com.cn/article/ZMTUzMzA2MA==.html?<br>
+设计师的好助手！AI作图，不仅在设计界频频出圈，它生成的照片也在各大媒体疯狂流传，它究竟有什么魅力呢？</p>
+<figure data-type="image" tabindex="1"><img src="https://img.zcool.cn/community/02hq3tjpyspftayvelu9xh3232.png" alt="" loading="lazy"></figure>
+<p>今天我想与大家浅谈一下AIGC，帮助大家更加正确的认识和看待AI，也会和大家分享一些自己的使用心得，干货满满哦！一定要看到最后！</p>
+<figure data-type="image" tabindex="2"><img src="https://img.zcool.cn/community/02lutam3yfkrhoccdllwyu3035.png" alt="" loading="lazy"></figure>
+<p>了解AI绘图前我们先大致了解一下AIGC行业的一个大致背景，因为AI绘图是AIGC行业在绘画与设计领域的一个运用，包括最近很火的Chatgpt也是属于AIGC，只不过Chatgpt属于文生文，AI作图属于文生图，也可以图生图后面再细说。</p>
+<p>以下是我大致整理的一个AIGC介绍，梳理了一下AIGC与其他行业的横向关系和垂直行业发展的关系。</p>
+<figure data-type="image" tabindex="3"><img src="https://img.zcool.cn/community/02jjurth9eet4jnjm1pgao3233.png" alt="" loading="lazy"></figure>
+<p>毕竟都是做设计的，将大家最关心的，目前市面一些AI绘图软件进行了整理和搜集，供大家了解。</p>
+<p>最重要是，将目前我正在使用的Midjourney手把手分享给大家，教大家如何如何使用以及快速上手。</p>
+<p>Midjourney强不强大？</p>
+<p>我说了不算，上图！</p>
+<p>这都是我花了小半天时间生成出来的一部分图，这效率，这质感，这画面，谁看谁不得来个6。</p>
+<p>而且这只是V4的功能，更强大V5也已经出来了（需订阅使用）。</p>
+<p>接下来就是实打实的干货了，如何安装并使用Midjourney。</p>
+<p>只需四步，你也可以来尽情的AI创作：</p>
+<p>1、注册账号<br>
+2、登录账号<br>
+3、创建自己的服务器<br>
+4、Midjourney的基本部署<br>
+5、Midjourney的订阅费用<br>
+6、快速上手指南</p>
+<p>由于该软件是国外软件，所以需要借助一些工具进行国外网络的访问，呼吁大家重视网络安全，文明上网。</p>
+<p>1、注册账号</p>
+<p>网址如下：<br>
+https://www.midjourney.com/home/</p>
+<p>第一步：进入网站后，点击右下角【Sign in】按钮进入登录页面</p>
+<p>第二步：点击【注册】按钮，进入注册页面</p>
+<p>第三步：进入到注册页面后，输入以下信息进行注册，点击【继续】</p>
+<p>第四步：勾选【我是人类】后会出现需要授权的页面，若点击【授权】提示需验证，则先去自己的邮箱里面点击【验证电子邮箱地址】。验证通过后点击【继续使用Discord】，验证手机号，大陆地区选择中国+86，输入验证码和密码后，便成功了！</p>
+<p>2、登录账号</p>
+<p>之后进入该网页，选择【Join the Beta】，进行邮箱验证登录即可。</p>
+<p>3、创建自己的服务器</p>
+<p>登录成功进入Midjourney界面后，点击左侧导航栏的+号，创建自己的服务器，没什么特别要求的话，选择第一个【亲自创建】就行，然后跟着步骤一步一步进行，最后进行命名。</p>
+<p>4、Midjourney的基本部署</p>
+<p>第一步：创建完自己的服务器后，回到Midjourney服务器界面，点击左侧导航栏的第二个图标，探索公开服务器。</p>
+<p>第二步：找到Midjourney服务器，并点击进入。</p>
+<p>第三步：进入后，左侧的频道可任意选择自己感兴趣的。找到右侧的Midjourney机器人，先点击头像，弹出弹窗后，再点击“添加至服务器”，选择添加到你刚创建的服务器，再选择【授权】即可。</p>
+<p>到这一步，Midjourney的基本部署就全部好了，你可以开始快乐的玩上Midjourney了！</p>
+<p>5、Midjourney的订阅费用</p>
+<p>接下来和大家介绍一下Midjourney的订阅费用，并告诉大家如何选择更适合自己的订阅。<br>
+（在Midjourney服务器界面下方的输入框，输入/subscribe ，点击open subscription page，便可以跳转到订阅界面 ）</p>
+<p>免费用户只有25次机会，且不具备商业使用权限。剩下订阅分为三个档次，分别可以进行月付或者年付，年付会有优惠。</p>
+<p>最重要的使用限制方面上，最低档会员每月只有200次，想尝试玩玩可以，大量使用不推荐，几乎3四天就能耗尽次数。</p>
+<p>而中等和最高级会员，使用放松模式下可以无限生成，快速模式下中等会员每个月15个小时，高级会员30个小时。</p>
+<p>剩下的主要关注点就是中等会员同时只能进行3个并发工作，高级会员则可以同时进行12个并发工作。总体考虑性价比上来说，个人比较推荐中等会员的订阅。</p>
+<p>6、快速上手指南</p>
+<p>快速指南不快怎么能行？</p>
+<p>首先以下是我整理的一些基础参数和设置命令。</p>
+<p>不知道生成好看的图片需要输入哪些关键词？直接打开Midjourney的探索页，别人生成的好看的图及关键词统统都有，上方搜索框还可以寻找自己喜欢的风格（需订阅才可探索他人公开生成的图和查看他人的关键词）</p>
+<p>还不够？再推荐你两个网站，各种参数，关键词参考任你选择任你用。</p>
+<p>MidJourney Prompt Tool (noonshot.com)<br>
+MidJourney-Styles-and-Keywords-Reference/Themes.md at main · willwulfken/MidJourney-Styles-and-Keywords-Reference · GitHub</p>
+<p>是不是突然发现AI原来这么简单？</p>
+<p>总结</p>
+<p>AI作图的出现只是代表着人类的生产工具又一次飞跃的进化了，但他的本质还是工具，需要人为的操作和使用，如何更好的去使用他们，比拼的还是设计师的创意与思维，所以提升自己的审美与能力永远不是没用的，不要被网上的失业所蒙蔽，只要不断努力不停学习，任何新来的事物都无法取代你。</p>
+<p>作者：菜心轻量文<br>
+链接：https://www.zcool.com.cn/article/ZMTUzMzA2MA==.html<br>
+来源：站酷<br>
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[绚星云学习APP定制化设计]]></title>
-        <id>https://lionvisionblog.github.io/post/xuan-xing-yun-xue-xi-app-ding-zhi-hua-she-ji/</id>
-        <link href="https://lionvisionblog.github.io/post/xuan-xing-yun-xue-xi-app-ding-zhi-hua-she-ji/">
+        <title type="html"><![CDATA[6款AI语言工具【收藏】]]></title>
+        <id>https://lionvisionblog.github.io/post/6-kuan-ai-yu-yan-gong-ju-shou-cang/</id>
+        <link href="https://lionvisionblog.github.io/post/6-kuan-ai-yu-yan-gong-ju-shou-cang/">
         </link>
-        <updated>2022-12-16T15:09:51.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<blockquote>
-<p>绚星云学习丨版本2.0<br>
-定制化体验设计升级丨Designer Lee<br>
-为大型企业提供互联网培训整体解决方案，助力企业建立高效的互联网培训管理系统。由于组织架构调整，此项目由我主导<br>
-地址：中国，北京，东城区国中商业大厦国中商业大厦</p>
-</blockquote>
-<p><img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp1.png" alt="" loading="lazy"><br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp2.png" alt="" loading="lazy"><br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp3.png" alt="" loading="lazy"><br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp4.png" alt="" loading="lazy"><br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp5.png" alt="" loading="lazy"><br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp6.png" alt="" loading="lazy"><br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp7.png" alt="" loading="lazy"><br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp8.png" alt="" loading="lazy"><br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxingapp9.png" alt="" loading="lazy"></p>
+        <updated>2023-04-02T06:08:08.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>1.微软文字转语音工具</strong></p>
+<p><strong>https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#overview</strong></p>
+<p><strong>00:36</strong></p>
+<p>输入文字，调整右侧四个参数即可。</p>
+<figure data-type="image" tabindex="1"><img src="https://i0.hdslb.com/bfs/note/29c97b80bf341e2a15078205064cadddea012032.jpg" alt="https://i0.hdslb.com/bfs/note/29c97b80bf341e2a15078205064cadddea012032.jpg" loading="lazy"></figure>
+<p><strong>2.Ondoku</strong></p>
+<p><strong>https://ondoku3.com/zh-hans/</strong></p>
+<p><strong>00:52</strong></p>
+<p>操作界面自带各国语言，对外语零级患者很友好。</p>
+<figure data-type="image" tabindex="2"><img src="https://i0.hdslb.com/bfs/note/bb751cc343c1de85914f1a4bd75ff9abd1a3caac.jpg" alt="https://i0.hdslb.com/bfs/note/bb751cc343c1de85914f1a4bd75ff9abd1a3caac.jpg" loading="lazy"></figure>
+<p>在下方文本框输入文字，选择语言，有五十多个可选语言。调整声库、语速、语调，步骤与微软类似。</p>
+<figure data-type="image" tabindex="3"><img src="https://i0.hdslb.com/bfs/note/4157115260ea93ecd208ae2b1990603e3de45d45.jpg" alt="https://i0.hdslb.com/bfs/note/4157115260ea93ecd208ae2b1990603e3de45d45.jpg" loading="lazy"></figure>
+<p>优点是能够上传含有文字的图片，实际操作更加方便。如果是讲解类的视频，这个翻译器足够。</p>
+<p>缺点是听起来太僵硬，没什么情感。</p>
+<figure data-type="image" tabindex="4"><img src="https://i0.hdslb.com/bfs/note/c5c931a7a4e576ce98d283e8d0102343fef05c3b.jpg" alt="https://i0.hdslb.com/bfs/note/c5c931a7a4e576ce98d283e8d0102343fef05c3b.jpg" loading="lazy"></figure>
+<p><strong>3.FREETTS</strong></p>
+<p><strong>https://freetts.com/#ssml</strong></p>
+<p><strong>01:23</strong></p>
+<p>支持语音合成标记语言。无需注册，全程免费商用，输入文字后查看下方的SSML语言，为特殊字符添加标识，就能让整句话变得抑扬顿挫。</p>
+<figure data-type="image" tabindex="5"><img src="https://i0.hdslb.com/bfs/note/13b18b9e427f0f6dee6b583366a16578962ab631.jpg" alt="https://i0.hdslb.com/bfs/note/13b18b9e427f0f6dee6b583366a16578962ab631.jpg" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://i0.hdslb.com/bfs/note/30b337bdba683890acdc5c74bc5666d0e4dd884e.jpg" alt="https://i0.hdslb.com/bfs/note/30b337bdba683890acdc5c74bc5666d0e4dd884e.jpg" loading="lazy"></figure>
+<p><strong>4.国内的文字转语音网站：知意、讯飞、牛片网、魔音工坊...视频选取的是声咖。</strong></p>
+<p>https://shengka.ai.sogou.com/</p>
+<p><strong>01:59</strong></p>
+<p>可以直接对文字进行部分倍速处理，添加音效。可用来做有声书。</p>
+<figure data-type="image" tabindex="7"><img src="https://i0.hdslb.com/bfs/note/8951bcf4007ff4f6c90bce6abe111d0183830922.jpg" alt="https://i0.hdslb.com/bfs/note/8951bcf4007ff4f6c90bce6abe111d0183830922.jpg" loading="lazy"></figure>
+<p>对数字和单词可进行单独设置。</p>
+<figure data-type="image" tabindex="8"><img src="https://i0.hdslb.com/bfs/note/c529dc1d09dfeef2c0c18f563265589deb0f6291.jpg" alt="https://i0.hdslb.com/bfs/note/c529dc1d09dfeef2c0c18f563265589deb0f6291.jpg" loading="lazy"></figure>
+<p><strong>5.XAudioPro</strong></p>
+<p>https://www.xaudiopro.com/aivoice/</p>
+<p><strong>03:21</strong></p>
+<p>导入音频，配合提前备好的喧闹环境音来调整。可以模拟说话人情绪增加音量，添加淡入淡出、混响、降噪等效果。边配边剪，边剪边配。</p>
+<figure data-type="image" tabindex="9"><img src="https://i0.hdslb.com/bfs/note/8a73f24da4ca831dc18b7ba48267be41ec32f99d.jpg" alt="https://i0.hdslb.com/bfs/note/8a73f24da4ca831dc18b7ba48267be41ec32f99d.jpg" loading="lazy"></figure>
+<p><strong>6.Uberduc</strong></p>
+<p>https://uberduck.ai/</p>
+<p><strong>03:46</strong></p>
+<p>内置以电影、动漫人物为原型的语音。</p>
+<p>可以结合文案语音和剧情编排一段同人作品。</p>
+<figure data-type="image" tabindex="10"><img src="https://i0.hdslb.com/bfs/note/2e43c04f95a672d79cc33e102a636d735ae93efe.jpg" alt="https://i0.hdslb.com/bfs/note/2e43c04f95a672d79cc33e102a636d735ae93efe.jpg" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[云学堂-绚星云学习官网]]></title>
-        <id>https://lionvisionblog.github.io/post/yun-xue-tang-xuan-xing-xuan-chuan-guan-wang/</id>
-        <link href="https://lionvisionblog.github.io/post/yun-xue-tang-xuan-xing-xuan-chuan-guan-wang/">
+        <title type="html"><![CDATA[至少，要对得起自己的时间吧]]></title>
+        <id>https://lionvisionblog.github.io/post/zhi-shao-yao-dui-de-qi-zi-ji-de-shi-jian-ba/</id>
+        <link href="https://lionvisionblog.github.io/post/zhi-shao-yao-dui-de-qi-zi-ji-de-shi-jian-ba/">
         </link>
-        <updated>2022-11-10T07:23:49.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<h3 id="概述">概述</h3>
-<blockquote>
-<p>绚星云学习是企业培训领域的创新型应用，而绚星云学习官网是联系用户的载体，平台提供产品、服务、输出各种信息，用户通过我们的官网获取各种信息，咨询对比服务等，从而最终购买我们的产品。</p>
+        <updated>2023-04-02T05:33:41.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>原创 刘润 2023-04-02 11:08 发表于上海</p>
 </blockquote>
-<h3 id="项目背景及思路">项目背景及思路</h3>
-<p>企业产品官网的作用是传达信息和促进转化，将尽量多的访客（潜在客户）转化为注册用户并最终完成购买。<br>
-在和市场以及产品确定整体框架、内容后，首当其冲的就是要先确定整体风格，因为绚星是从属于云学堂的，其设计风格肯定要保持一致，设计上的发力点其实不是很多，我是如何做的呢？</p>
-<h4 id="1首屏的重要性">1.首屏的重要性</h4>
-<p>首屏大图占据了官网最宝贵的第一屏，它决定了访客对官网的第一印象。首屏大图可以辅助产品Slogan来有效传达产品价值，同时还会影响到官网整体的气质。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/xuanxinggw.png" alt="" loading="lazy"><br>
-视频也是流行趋势，在首屏位置比起静态图，动态视频更容易吸引目光。在配合定制视频，轻松的达到营销目的。需要注意的是，不同子产品页可以用不同的首屏大图，但是要注意尺寸和风格保持一致。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/Kapture%202023-02-01%20at%2017.16.47%20(1).gif" alt="" loading="lazy"></p>
-<h4 id="2明确传达产品价值">2.明确传达产品价值</h4>
-<p>不需要繁杂的长篇大论，用户也不会像读论文一样浏览网站。这就需要文案的严谨精简，设计时结构、交互直观，信息元素清晰明了<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/yxtyuansu.png" alt="" loading="lazy"></p>
-<h4 id="3合理的浏览动线">3.合理的浏览动线</h4>
-<p>当访客被你的首屏大图和价值主张吸引之后，接下来他可能想要在你的官网上四处看看了解更多信息。合理清晰的浏览方式可以带领访客快速找到想要的信息。导航是网站的路标，也是网站组织架构的体现。如果访客的浏览体验不顺畅，他们会对你的产品和公司失去信心。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/yxtdongxian.png" alt="" loading="lazy"></p>
-<h4 id="4cta推动转化">4.CTA推动转化</h4>
-<p>CTA（Call to Action，用户行为召唤）是指希望访客在浏览官网时完成的指定行为，通常有：注册、申请试用、邮件订阅、软件下载等等。CTA是促进官网完成转化的主要手段，对于企业产品官网，醒目的CTA按钮是标配。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/yxtcta.png" alt="" loading="lazy"></p>
-<h4 id="5增强用户信任感">5.增强用户信任感</h4>
-<p>企业级（to B）产品不像消费级（to C）产品那么普遍和易获取，企业客户在选择产品的时候更为慎重，官网要帮助消除他们的疑虑，建立对产品的信任感，最好的方式就是把已购买产品的客户成功案例展示出来。你的客户就是你产品天生的代言人，他们比你的产品本身更有说服力。<br>
-越来越多的公司已经不满足于静态讲故事，云学堂也开始使用更专业、更有说服力的短片来作为客户成功案例。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/kehuanli.png" alt="" loading="lazy"><br>
-在有了很多大公司、大客户的合作后，也需要把这些都展示出来，展示不下用logo墙的方式，也会很好的强化用户的信任感。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/logoq.png" alt="" loading="lazy"></p>
-<h4 id="6响应式设计">6.响应式设计</h4>
-<p>在大部分人都用移动设备的时代，响应式开发设计也是很基本的需求了，完美的情况是在不同尺寸的屏幕上都有优秀都使用体验。每个公司每个项目使用的资源不同，在最差的情况下也需要保证移动端和网页端的体验。这个项目就是如此，在资源有限的情况下，做好网页和h5的设计，就可以很好的满足业务需求。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/yxth5.gif" alt="" loading="lazy"></p>
-<h4 id="总结">总结</h4>
-<p>通过绚星云官网设计、开发，制作成一套模版，之后复用于这个平台下的子模块（人才发展、智能教练等），别的模块只需要修改里面的元素、文案即可。避免了资源的浪费，以及设计和开发细节的不统一，项目整体周期的缩减，帮助公司降本增效👻</p>
-<h5 id="更多阅读">更多阅读</h5>
-<blockquote>
-<p><a href="https://www.yxt.com/enterpriseUniversity/University">云学堂绚星官网</a></p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[齿轮易创-官网升级改版]]></title>
-        <id>https://lionvisionblog.github.io/post/chi-lun-yi-chuang-guan-wang-sheng-ji-gai-ban/</id>
-        <link href="https://lionvisionblog.github.io/post/chi-lun-yi-chuang-guan-wang-sheng-ji-gai-ban/">
-        </link>
-        <updated>2022-10-30T08:02:11.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<h3 id="公司简介">公司简介</h3>
-<blockquote>
-<p>齿轮易创成立于2016年，是国内领先的创新性IT解决方案服务商，致力于通过咨询、产品设计及软件工程助力企业开启创新的互联网转型和信息化作业。<br>
-在此项目期间，由我主导公司官网的设计工作，整个过程中文哥和高姐给予我充分的信任和帮助，解决了很多困难，让项目顺利的上线，总而言之是非常愉快的合作，在此非常感谢🙏</p>
-</blockquote>
-<h3 id="项目概览">项目概览</h3>
-<p>由于此次官网升级需要符合公司的风格，也就是在原有的基础上进行提升，就很难有质的提升，或者做的不符合公司调性。所以在前期也和项目负责人多次进行了约饭、约咖啡（主要还是商讨工作😜），初期也尝试了很多风格（包括3D、线性、扁平等），大多都不太符合公司形象，原型图也有不确定的地方。这里就体现出设计执行前充分的沟通以及了解需求的重要性了，大家也不要在不了解的情况下就知道闷头做，否则就会越做越离谱、费力不讨好。当然如何真正了解需求也是有一些技巧的，就不在这里展开了。在充分的沟通了解后，也进行了一些尝试，最终确定了官网的整体风格，采用的是2.5D插画，以及克制的配色和动效，让整体质感有很大的提升，主要还是尽量减轻网页的信息量，在通过合理的排版，让页面整体更加清晰也更加专业，从而更容易获得客户的信任～<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/%E6%96%B0%E9%BD%BF%E8%BD%AE%E5%AE%98%E7%BD%91.png" alt="" loading="lazy"></p>
-<h3 id="概念和插图创意">概念和插图创意</h3>
-<p>之前我有提到，开始尝试了多种风格...<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/fengge.png" alt="" loading="lazy"><br>
-多次尝试以及确定之后，最终采用2.5d插画的概念设定，是比较符合科技互联网公司的风格，又对相关资料进行了拓展和一系列概念元素的补全。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/yuansu.png" alt="" loading="lazy"><br>
-然后又把各个业务中的二级页面banner主图元素进行了绘制，融合进多场景的业务中。首屏大图占据了官网最宝贵的第一屏，它决定了访客对官网的第一印象。首屏大图可以辅助产品来有效传达产品价值，同时还会影响到官网整体的气质。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/chahua.png" alt="" loading="lazy"><br>
-在公司官网多个业务当中应用，把插图中的很多主要元素做成了插画库，维持住公司的设计资产，帮助公司在宣传运营中减少了很多成本，同时提升了业务的专业性和品牌的成长性。</p>
-<h3 id="插画系统-设计资产">插画系统-设计资产</h3>
-<p>为了更容易了解插画系统的构成原则，我采用原子设计理论作为这套原则的核心支撑。原子设计作为制作插画系统提供了清晰的方法，设计团队通过实际的设计流程与步骤，能更好的去理解插画系统的概念。原子设计理论可分为 5 个阶段：原子、分子、组织、模板、场景。<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/%E5%8E%9F%E5%AD%90%E8%AE%BE%E8%AE%A1%E7%90%86%E8%AE%BA.png" alt="" loading="lazy"><br>
-相信设计师们在工作中都会用到组件库，其实插画库都原理和组件库都是相通的，把当中的元素替换成插画素材即可，当然制作这些设计资产需要严谨哦～（层级、命名、颜色等等）不然后期维护可就闹心了😵‍💫<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/cengji.gif" alt="" loading="lazy"><br>
-原子设计理论最早是由国外前端开发工程师 Brad Frost 提出的，他从化学元素周期表中得到启发，想要深入了解可以查看大佬的书 <a href="https://atomicdesign.bradfrost.com/">《Atomic Design》</a>，👈我就不赘述啦～<br>
-<img src="https://lionvision.oss-cn-beijing.aliyuncs.com/img/atomic_design.png" alt="" loading="lazy"><br>
-插画系统作为设计系统的分支，是对产品插图的整体性概括，其本质是“文档规范”与“设计资产”的集合，用于提供一定的原则、方法、标准与素材，帮助设计师系统化、高质量的完成设计输出，同时提升设计效率，将设计师从重复的劳动中解放出来，免受搬砖之苦👻</p>
-<h3 id="项目规范">项目规范</h3>
-<p>这次的项目只是官网升级，我这里就做了pc官网的设计规范出来，方便公司相关人员了解整体的框架和细节，也方便后期的调整，极大的提高今后的可拓展性。<br>
-<img src="https://lionvisionblog.github.io/post-images/1675075615861.png" alt="" loading="lazy"></p>
-<h3 id="总结">总结</h3>
-<p>回顾整个项目，其中有很多坎坷，但更多的还是帮客户解决了问题，虽然办法有很多种，但最重要的还是要找到最合适客户的办法，这是难点所在，也是艺术和设计的区别。</p>
-<h5 id="更多阅读">更多阅读</h5>
-<blockquote>
-<p><a href="https://chilunyc.com/">齿轮易创官网 https://chilunyc.com/</a><br>
-<a href="https://atomicdesign.bradfrost.com/">《Atomic Design》 https://atomicdesign.bradfrost.com/</a></p>
-</blockquote>
+<p>今天，我们重发一篇过往比较受欢迎的文章《至少，要对得起自己的时间吧》，希望对你有所启发。</p>
+<p>以下是这篇重发文章正文。</p>
+<p>有不少同学和我说，我很渴望自己的成长，想成为一名优秀的管理者，成为一名职业的高效能人士，有没有什么好的建议？</p>
+<p>我有一个最朴实，最直接，同时也是最真实的建议：</p>
+<p><strong>至少，要对得起你自己的时间。</strong></p>
+<p>现代管理学之父，彼得·德鲁克说：</p>
+<p><strong>所有的“管理”，核心都是“自我管理”，而“自我管理”的核心，是“时间管理”。</strong></p>
+<p>浪费别人的时间，是谋财害命。浪费自己的时间，是慢性自杀。</p>
+<p><strong>在有限的时间里，尽可能获得更多的成长，是拉开与别人差距的关键。</strong></p>
+<p>今天，我也和你分享一些思考。</p>
+<h3 id="只定最重要的目标">只定最重要的目标</h3>
+<p>想要对得起自己的时间，首先要做的，是做出选择。</p>
+<p><strong>真正能提高你效率的方法，不是如何从17分钟里省出17秒，而是如何用17分钟省出17个小时。</strong></p>
+<p>什么意思？</p>
+<p>就是你要在这17分钟里做出一个决定，接下来要花费17个小时的事情，到底值不值得做？</p>
+<p>哪些事情是你实现人生目标必须要做的？</p>
+<p>哪些事情是对你的目标帮助不大的？</p>
+<p>哪些事情是你哪怕失去现有条件也一定要完成的？</p>
+<p><strong>选择，是第一要义。</strong></p>
+<p>做了一个错误的决定，会南辕北辙。不重视自己的选择，会越努力越错。</p>
+<p>你可以思考，什么是你最重要的？</p>
+<p><strong>不用很多，一个就够。只定最重要的目标。</strong></p>
+<p>曾是阿里人力资源副总裁的黄旭老师，给我讲过一个故事，让我印象很深。</p>
+<p><strong>马云给下属定目标，向来都只定一件事，而且又狠又准。</strong></p>
+<p>陆兆禧接任淘宝CEO以后发现，淘宝遍地黄金，认为很快可以让淘宝盈利。淘宝当时是每年亏损2个亿。</p>
+<p>但是，马云被吓坏了。当年只给陆兆禧定了一个目标：不准盈利一分钱。否则所有人都没有奖金和股票。而且还宣布集团再追加投资淘宝50亿。</p>
+<p>为什么？</p>
+<p><strong>因为对于马云来说，当时淘宝的体量还太小了，才1000亿交易额。如果做不到1万亿交易额，这公司就白干了。</strong></p>
+<p>后来，淘宝果然做到1万亿。</p>
+<p>这就结束了吗？</p>
+<p>没有。</p>
+<p><strong>2013年，马云给淘宝的目标是100万×100万。就是100万家店铺实现100万/年交易额。</strong></p>
+<p>为什么？</p>
+<p>因为平台虽然做到了1万亿，但是这个1万亿必须更健康。</p>
+<p>马云知道，淘宝的稳定需要牢牢抓住和服务好自己的中坚力量。</p>
+<p>最后的结果是，仅仅是这些中坚力量，真的就贡献了一年1万亿的交易额（100万×100万）。</p>
+<p>尽管今天大家对淘宝可能有这样那样的看法，但是在当时，应该说这些目标还是非常准确和重要的。</p>
+<p>我想说的是，你要想清楚自己最重要的事情是什么，然后再扑上去。</p>
+<p><strong>说白了，就是你的“必赢之仗”是什么？</strong></p>
+<p>有时候不用假装自己很忙碌。清单上的事情有一两件，两三件就足够了。这些做成了，比得上千件万件。</p>
+<p>最浪费时间的，不是不够高效，而是在错误的事情上，一路狂奔。</p>
+<p><strong>2/8法则，大多数时候就是铁一样的定律。盯紧最重要的目标。</strong></p>
+<h3 id="计算时间成本">计算时间成本</h3>
+<p>想清楚最重要的目标，接下来就要行动。</p>
+<p>但是，行动同样会有很多选择，我是做A？还是做B？</p>
+<p><strong>比如说，我到底要不要多花2000元房租，从距离1个小时路程的地方，搬到公司楼下？</strong></p>
+<p>像这样更加具体的选择和行动，每时每刻都在发生。</p>
+<p>这时，你要计算自己的时间成本。</p>
+<p><strong>时间成本，就是这个时间如果用于做别的事情，你可以获得的收益。它是一种特殊形式的机会成本。</strong></p>
+<p>知道计算时间成本，是一个人成熟的标志之一，可以帮你在很多决策上做出到底是花时间做，还是花钱买的理性决策。</p>
+<p>我在《5分钟商学院》里举过一个例子：比如，你现在的收入是1万元/月。每个月有21个工作日，每个工作日工作8小时。</p>
+<p><strong>所以，你每小时的时间成本，就是：1万元/21天/8小时=59.5元。</strong></p>
+<p>那么，你应不应该每月多花2000元房租，从距离1个小时路程的地方，搬到公司楼下呢？</p>
+<p>你每天来回，实际花2个小时在路上。你每天花在通勤上的时间成本，就是59.5元x2小时=119元。一个月就是119元x21天=2499元。</p>
+<p><strong>多花2000元，搬到公司楼下，可以节省2499元的时间成本。你应该搬。</strong></p>
+<p>你算算自己的时薪，到底是多少。</p>
+<p><strong>用时薪，来对你自己的时间估值和计价。并且把它作为你使用时间的标准。</strong></p>
+<p>这也是为了让自己的时间更有价值。</p>
+<p><strong>浪费自己的时间，是可怜的。贱卖自己的时间，是愚蠢的。</strong></p>
+<h3 id="创造沉浸的心流">创造沉浸的心流</h3>
+<p>但是，我们定最重要的目标，计算自己的时间成本，都是为了节省出更多时间，把时间投入到更值得的事情上。</p>
+<p>那么，在做这些事情时，怎样让自己能专注、高效呢？</p>
+<p><strong>节省出17个小时，又在低效中荒废了17个小时，是很多人遇到的挑战。</strong></p>
+<p>所以，在具体的工作中，关键是创造沉浸的心流。</p>
+<p><strong>我给你讲个故事，我听过的关于心流最疯狂的故事。</strong></p>
+<p>尚克曼，是一名演说家，大部分的时间都是在天上飞。他觉得，在3000英尺的高空，是让他保持专注的好方法。</p>
+<p>他说，因为封闭在一个座位里，眼前没有任何东西，不会干扰我，没有东西让我觉得，“啊，好晃眼！”</p>
+<p>之后，尚克曼签了一本书的合同。合同要求，要用两个星期的时间完成全部手稿。</p>
+<p>你想想，两个星期，就要写一本书，必须要极度专注。</p>
+<p>怎么办？</p>
+<p><strong>尚克曼做了一件事。他定了一张往返东京的机票。在飞往日本的航班上写了一路。</strong></p>
+<p><strong>然后呢？然后，到了日本，在商务舱里休息一下，喝了杯咖啡，登上返航的飞机，又写了一路。</strong></p>
+<p><strong>等他回到美国时，手稿已经写完了。</strong></p>
+<p>一来一回，30个小时，一本书的手稿。多么惊人的效率！多么疯狂的方法！</p>
+<p>在这个故事里，我们可以得到很多关于心流的启发：</p>
+<p>1，找到一件具体值得做的事情。这件事情，非常重要，但同时有些挑战。</p>
+<p>2，设计自己的流程和习惯。比如，每次工作前收拾桌面，喝一杯水，或者先静坐2分钟。用仪式感提醒自己，要开工了。</p>
+<p>3，给自己设定一个ddl。倒逼自己，提高效率。</p>
+<p>在心流中，提高时间的使用效率。</p>
+<p>而不是在纠结中，反反复复来来回回。</p>
+<h3 id="珍惜第三个8小时">珍惜第三个8小时</h3>
+<p>刚刚说的，一般都是“工作时间”。</p>
+<p><strong>但是，真正想要对得起自己，就要对得起一天全部的24个小时。</strong></p>
+<p>上帝给了每个人每天公平的三个8小时。</p>
+<p><strong>第一个8小时大家都在“工作”，第二个8小时大家都在“睡觉”，那第三个8小时，你会干什么？</strong></p>
+<p>很多人是花2小时通勤，花2小时刷视频，花2小时购物和发呆，再花2小时自责和懊悔，为自己的毫无进步感到绝望。</p>
+<p>仔细想想，一身冷汗吧。</p>
+<p>珍惜第三个8小时，所有你能抢出来的时间，都是你能拉开人与人之间差距的关键。</p>
+<p><strong>第一，找到绝对安静和独处的时间。</strong></p>
+<p>这段时间，只用来学习、思考，等等，做对成长有意义的事情。如果可以，争取每天有2-3个小时。</p>
+<p>然后注意，别被打断，要沉浸。</p>
+<p>整段连续的2个小时，价值远远超过8个15分钟。</p>
+<p><strong>微信晚点回，消息晚点看，没事的。地球不会爆炸。要有定力。</strong></p>
+<p>下班后在办公室待2个小时，反正本来都要堵在路上，不如吃个饭散个步，然后在办公室安安静静看会书。</p>
+<p>或者，早上提前一点来办公室，只有你一个人，1个小时能当2小时用。</p>
+<p><strong>第二，分清“交易、消费和投资”。</strong></p>
+<p>时间有三重特性：交易、消费和投资。</p>
+<p>你支付给你的老板每天8小时，他回报给你每月1万元钱，这是交易。你拿你好不容易找到的2-3小时的独处时间，追剧刷视频，这是消费。你拿这段时间来学习，就是投资。</p>
+<p>那就不能看剧，不能逛街，不能娱乐了吗？</p>
+<p>不是。但用别的时间吧。必要的时候，对自己狠一点。至少在那雷打不动的2-3个小时里，只能用于投资。</p>
+<p><strong>第三，坚持下来。</strong></p>
+<p>坚持，是一个美妙的词。谁都会说，但大多数人都不会做。</p>
+<p><strong>总有一天你会发现，关注自己的第三个8小时，每天留出学习时间，放下一切，拒绝一切，专注于自己的成长，它的回报是惊人的。</strong></p>
+<h3 id="最后的话">最后的话</h3>
+<p><strong>时间，比金子还要宝贵。</strong></p>
+<p><strong>你关注什么，你就会变成什么样的人。</strong></p>
+<p>所以，不要去关注战争冲突，不要去关注年收入超过1个亿的人数，不要去关注隔壁邻居又买了什么。</p>
+<p>这些你了解得再透彻，你的水平也不会发生任何改变。</p>
+<p><strong>找到最重要的目标，计算自己的时间成本，在具体的工作中创造心流的体验，珍惜每天的第三个8小时，才是你可以做的。</strong></p>
+<p>我看到过一句话，在最后和你分享：</p>
+<p><strong>如果你买个摄像头放在家里，用上帝视角观察自己每天都在做什么，你会发现——你富不起来真是太正常了。</strong></p>
+<p>时间是不可再生的资源。</p>
+<p><strong>至少，你要对得起自己的时间吧。</strong></p>
 ]]></content>
     </entry>
     <entry>
@@ -220,38 +305,16 @@ p2/p3根据具体问题分析得出，重新全面升级工具结构的方案<br
         </link>
         <updated>2015-09-01T08:38:58.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
-<h2 id="李健">🎩 李健</h2>
-<p><font color="#888">男，90后，拥有7年互联网产品设计经验，负责过百万量级用户的产品设计工作，有带设计团队的经验；负责过ToB、ToC、ToG的各终端的设计工作，有独立完成项目从0到1的设计能力；深入了解产品，找到设计的发力点，能用丰富的设计手段达到产品及业务目标；略懂一些代码，使设计不在盲目的追求繁杂的设计形态，而是Design &amp; Code 相结合，创造更大的价值。</font></p>
-<h2 id="经历">📝 经历</h2>
-<p><strong>云学堂</strong> <font color="#888">2021.9-2022.10</font> <strong>资深UI设计师</strong><br>
-<font color="#888">主要构建云学堂企业内部YXT Design 企业级设计系统，整体体量对标Ant Design。66+个组件覆盖React、Vue、Flutter 三大框架，包含了图标、图表、插画库、设计系统构建平台、物料平台等丰富的周边生态产品，打造完善的企业培训中后台产品解决方案。</font></p>
-<p><strong>果粒科技</strong> <font color="#888">2019.3-2021.8</font> <strong>设计负责人</strong><br>
-<font color="#888">金融类C端产品：借贷、保险、信用卡；新赛道：电商、短视频。指导3人团队设计包括: App、Web、小程序、品牌设计。</font></p>
-<p><strong>中国建筑设计研究院</strong> <font color="#888">2016.8-2019.1</font> <strong>UI设计组长</strong><br>
-<font color="#888">建筑类B端产品：施工管理平台、培训平台、帮助系统；其他：官网、品牌。带领5人团队对公司项目进行交互和UI设计。企业办公类产品，包含移动、web、桌面软件。</font></p>
-<p><strong>爱远方</strong> <font color="#888">2015.8-2016.8</font> <strong>UI设计师</strong><br>
-<font color="#888">互联网旅游类产品，负责web、app的竞品分析、改版设计、 交互设计、测试反馈、线上维护，把控设计风格、优化产品体验；宣传周边平面设计；微信公众号的宣传设计。</font></p>
-<p><strong>河北美术学院</strong> <font color="#888">2015</font> <strong>本科 - 油画</strong></p>
-<p>曾服务过的客户：猫眼电影、齿轮易创、CELLA、锐捷网络</p>
+<h2 id="lion-vision">🎩 Lion Vision</h2>
+<p><font color="#888">理性与感性共存的设计师 / 略懂代码 / 热衷折腾研究新工具 / 咖啡控 / 极简主义</font><br>
+<strong>日常分享，看的开心，好好学习，有所收获</strong></p>
+<h2 id="位置">🌍 位置</h2>
+<p><font color="#888">北京（世界各地哪都可能👻）</font></p>
 <h2 id="联系方式">📬 联系方式</h2>
 <p><font color="#888">Mobile: 15726617859<br>
 E-mail: jaylee90@163.com<br>
 Wechat: jaylee90</font></p>
 <p>⬆️您有任何想法或者合作，都可以与我沟通哦～⬆️</p>
-<!-- more -->
-<br>
-<p><a class="btn btn-xm btn-default" target="_blank" title="" href="https://lionvision.oss-cn-beijing.aliyuncs.com/img/%E6%9D%8E%E5%81%A5-%E7%AE%80%E5%8E%86-7%E5%B9%B4-UI%E8%AE%BE%E8%AE%A1.pdf" disabled="disabled" style="width: 80px;
-    height: 40px;
-    padding: 10px 25px;
-    margin-top: 20px;
-    color: #fff;
-    background: #333;
-    border-radius: 40px; a::selection {
-    background: #F9CE21;">简历Resume 📝</a></p>
-<!-- more -->
-<br>
-<h2 id="更多">💡 更多</h2>
-<p><a href="https://dribbble.com/Oopss" target="_blank"><svg t="1676547433008" class="icon" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2822" width="18" height="18" float="left"><path d="M512.7121 512m-478.175243 0a478.175243 478.175243 0 1 0 956.350487 0 478.175243 478.175243 0 1 0-956.350487 0Z" fill="#EA4C89" p-id="2823"></path><path d="M512.7121 0C230.008345 0 0 229.652295 0 512c0 282.347705 230.008345 512 512.7121 512s512.7121-229.652295 512.7121-512C1025.4242 229.652295 795.415855 0 512.7121 0z m337.535466 241.757997c58.392211 72.278164 93.997218 164.139082 95.777469 263.833102-19.582754-3.916551-101.83032-19.226704-200.456189-19.226704-31.688456 0-65.157163 1.78025-98.62587 5.696801-2.848401-6.764951-5.696801-13.885953-8.545201-20.650904-8.545202-20.294854-18.158554-40.589708-27.771906-60.528512 151.32128-63.020862 224.311544-149.541029 239.621697-169.123783zM512.7121 80.111266c109.307371 0 209.001391 40.589708 285.552156 107.527121-12.105702 16.378303-77.618915 98.269819-223.599444 153.45758-67.649513-123.549374-141.707928-226.091794-159.154381-249.947149 30.976356-7.121001 63.732962-11.037552 97.201669-11.037552zM326.497914 122.125174c14.954103 20.650904 89.012517 123.905424 158.442281 246.742698-186.214186 48.77886-351.421419 51.98331-391.655077 51.98331H89.012517c29.196106-132.094576 118.208623-241.757997 237.485397-298.726008zM79.399166 512.7121c0-3.560501 0-7.121001 0.35605-10.681502h11.393602c53.763561 0 240.333797-4.628651 432.600834-61.596662 11.749652 22.787204 22.787204 45.930459 33.112657 69.073714-4.984701 1.4242-9.613352 2.848401-14.242003 4.2726C325.785814 583.922114 206.86509 769.06815 188.706537 799.332406 120.700974 722.781641 79.399166 622.731572 79.399166 512.7121zM512.7121 945.312935c-99.337969 0-190.842837-33.468707-264.189151-90.080668 12.461752-24.211405 102.18637-185.858136 339.315716-268.461752h0.35605c59.460362 154.88178 84.739917 284.840056 91.504868 325.073713-51.27121 21.363004-107.527121 33.468707-166.987483 33.468707z m245.318498-76.194715c-5.696801-33.468707-29.196106-155.23783-82.959666-303.71071 30.264256-4.628651 59.460362-6.408901 87.232267-6.408901 90.436718 0 161.290682 19.938804 177.668985 24.923505-19.582754 117.852573-87.232267 219.682893-181.941586 285.196106z" fill="#C32361" p-id="2824"></path></svg> Dribbble</a> ----- <a href="https://www.behance.net/jaylee90" target="_blank"><svg t="1676548132445" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5607" width="18" height="18"><path d="M509.866667 2.133333C791.466667 2.133333 1019.733333 230.4 1019.733333 512c2.133333 283.733333-228.266667 512-509.866666 512S0 795.733333 0 514.133333 228.266667 2.133333 509.866667 2.133333z" fill="#0094FF" p-id="5608"></path><path d="M791.466667 324.266667h-166.4v40.533333h166.4v-40.533333z m-81.066667 138.666666c-19.2 0-36.266667 6.4-46.933333 17.066667-12.8 10.666667-19.2 27.733333-19.2 46.933333h132.266666c-6.4-44.8-27.733333-64-66.133333-64z m4.266667 189.866667c12.8 0 27.733333-4.266667 40.533333-10.666667 12.8-6.4 21.333333-17.066667 25.6-27.733333H853.333333c-21.333333 66.133333-68.266667 100.266667-138.666666 100.266667-46.933333 0-83.2-14.933333-110.933334-42.666667-27.733333-27.733333-40.533333-66.133333-40.533333-113.066667 0-44.8 14.933333-83.2 42.666667-113.066666s64-44.8 108.8-44.8c29.866667 0 55.466667 6.4 78.933333 21.333333 21.333333 14.933333 38.4 34.133333 49.066667 57.6 10.666667 23.466667 17.066667 51.2 17.066666 81.066667v14.933333h-213.333333c0 23.466667 6.4 42.666667 19.2 55.466667 8.533333 12.8 25.6 21.333333 49.066667 21.333333z m-433.066667-17.066667h96c44.8 0 66.133333-17.066667 66.133333-53.333333 0-38.4-21.333333-57.6-64-57.6h-98.133333v110.933333z m0-174.933333h91.733333c17.066667 0 29.866667-4.266667 40.533334-12.8 10.666667-8.533333 14.933333-19.2 14.933333-36.266667 0-32-21.333333-46.933333-61.866667-46.933333h-85.333333v96zM192 296.533333h192c19.2 0 36.266667 2.133333 51.2 4.266667s27.733333 8.533333 40.533333 14.933333c12.8 6.4 21.333333 17.066667 29.866667 32 6.4 12.8 10.666667 29.866667 10.666667 49.066667 0 38.4-19.2 68.266667-55.466667 85.333333 25.6 6.4 42.666667 19.2 55.466667 36.266667 12.8 17.066667 19.2 40.533333 19.2 66.133333 0 17.066667-2.133333 32-8.533334 44.8-4.266667 12.8-12.8 23.466667-21.333333 34.133334-8.533333 8.533333-19.2 17.066667-32 23.466666-12.8 6.4-25.6 10.666667-38.4 12.8-12.8 2.133333-27.733333 4.266667-42.666667 4.266667H192V296.533333z" fill="#FFFFFF" p-id="5609"></path></svg> Behance</a> ----- <a href="https://www.pinterest.com/lionvision90/_saved/" target="_blank"><svg t="1676548182266" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7469" width="18" height="18"><path d="M511.82939 0C229.256914 0 0 229.128957 0 511.82939c0 209.551483 126.037987 389.630123 306.415195 468.793069-1.450183-35.7001-0.213262-78.651116 8.871709-117.55015l65.855382-278.861713s-16.335888-32.671776-16.335888-81.039653c0-75.836055 44.017328-132.478507 98.74042-132.478507 46.49117 0 69.011663 34.975008 69.011663 76.902366 0 46.747084-29.856714 116.739753-45.211597 181.571476-12.795735 54.33922 27.212263 98.612463 80.783739 98.612462 96.991669 0 162.292569-124.545152 162.292569-272.122625 0-112.175941-75.537488-196.115961-212.963679-196.115962-155.254915 0-251.948017 115.758747-251.948017 245.038321 0 44.657114 13.094302 76.091969 33.695435 100.403865 9.511496 11.260247 10.79107 15.696101 7.336221 28.577141-2.388537 9.340886-8.061313 32.074642-10.407197 41.074309-3.412196 12.923692-13.904698 17.615462-25.59147 12.795734-71.57081-29.174275-104.83972-107.484172-104.83972-195.561479 0-145.359547 122.625791-319.765412 365.787404-319.765412 195.433522 0 324.073309 141.478174 324.073309 293.235589 0 200.807731-111.62146 350.773742-276.217261 350.773742-55.192269 0-107.228257-29.856714-125.014328-63.722759 0 0-29.77141 117.89137-35.998667 140.667777-10.833722 39.410863-32.074642 78.907031-51.524159 109.616794 46.064645 13.563479 94.688437 20.985005 145.018327 20.985005 282.700433 0 511.82939-229.128957 511.82939-511.82939S794.529823 0 511.82939 0" fill="#CC2127" p-id="7470"></path></svg> Pinterest</a> ----- <a href="https://www.figma.com/@lionvision" target="_blank"><svg t="1676556204574" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2826" width="18" height="18"><path d="M512 512c0-94.4 76.8-171.2 171.2-171.2 94.4 0 171.2 76.8 171.2 171.2s-76.8 171.2-171.2 171.2C588.8 683.2 512 606.4 512 512z" fill="#1ABCFE" p-id="2827"></path><path d="M171.2 852.8c0-94.4 76.8-171.2 171.2-171.2H512v171.2C512 947.2 435.2 1024 340.8 1024s-169.6-76.8-169.6-171.2z" fill="#0ACF83" p-id="2828"></path><path d="M512 0v340.8h171.2c94.4 0 171.2-76.8 171.2-171.2S777.6 0 683.2 0H512z" fill="#FF7262" p-id="2829"></path><path d="M171.2 171.2c0 94.4 76.8 171.2 171.2 171.2H512V0H340.8c-94.4 0-169.6 76.8-169.6 171.2z" fill="#F24E1E" p-id="2830"></path><path d="M171.2 512c0 94.4 76.8 171.2 171.2 171.2H512V340.8H340.8c-94.4 0-169.6 76.8-169.6 171.2z" fill="#A259FF" p-id="2831"></path></svg> Figma</a></p>
 ]]></content>
     </entry>
 </feed>
