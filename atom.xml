@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lionvisionblog.github.io</id>
     <title>LionVision</title>
-    <updated>2023-04-02T06:31:45.851Z</updated>
+    <updated>2023-04-02T08:21:13.715Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lionvisionblog.github.io"/>
     <link rel="self" href="https://lionvisionblog.github.io/atom.xml"/>
@@ -10,6 +10,96 @@
     <logo>https://lionvisionblog.github.io/images/avatar.png</logo>
     <icon>https://lionvisionblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, LionVision</rights>
+    <entry>
+        <title type="html"><![CDATA[重温《触类旁通》-Designing for Touch]]></title>
+        <id>https://lionvisionblog.github.io/post/lesslesshong-lei-pang-tong-greatergreater-designing-for-touch/</id>
+        <link href="https://lionvisionblog.github.io/post/lesslesshong-lei-pang-tong-greatergreater-designing-for-touch/">
+        </link>
+        <updated>2023-04-02T07:22:10.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>作者: [美] Josh Clark   ｜  译者: C7210<br>
+它是一本2015年出版的关于触控界面设计的书，旨在帮助设计师了解如何设计易于使用和直观的触控界面。这本书涵盖了触控界面设计的各个方面，包括基础知识、设计原则、交互设计、视觉设计等等。此外，它还提供了实用的建议和案例研究，帮助读者理解如何将这些设计原则应用于实际项目中。这本书对于任何希望设计触控界面的人来说都是一本非常有用的参考书。</p>
+</blockquote>
+<h3 id="触控界面基础知识">触控界面基础知识</h3>
+<p>在本书的第一部分，作者介绍了触控界面的基本概念、历史和发展趋势等。这一部分主要包括以下内容：</p>
+<ul>
+<li>
+<p>触控界面的定义和种类：介绍了触控界面的概念、种类和优缺点，如多点触控、手势识别等。</p>
+</li>
+<li>
+<p>触控界面的历史和发展：回顾了触控界面的发展历程，介绍了一些标志性的触控设备和技术。</p>
+</li>
+<li>
+<p>触控界面的未来趋势：探讨了触控界面未来的发展趋势和可能的创新方向。</p>
+</li>
+</ul>
+<h3 id="设计原则">设计原则</h3>
+<p>在第二部分中，作者详细阐述了如何设计易于使用和直观的触控界面。这一部分主要包括以下内容：</p>
+<ul>
+<li>
+<p>信息架构设计：介绍了如何设计清晰的信息架构，以便用户能够轻松地找到所需的内容。</p>
+</li>
+<li>
+<p>导航设计：讲解了如何设计明确的导航和操作方式，包括菜单、标签、按钮等。</p>
+</li>
+<li>
+<p>反馈和动效设计：探讨了如何设计具有响应性、反馈和动效的触控界面，以提高用户体验。</p>
+</li>
+<li>
+<p>可访问性设计：介绍了如何设计易于使用和无障碍的触控界面，以满足不同用户的需求。</p>
+</li>
+</ul>
+<h3 id="交互设计">交互设计</h3>
+<p>在第三部分中，作者探讨了如何设计具有响应性、反馈和动效的触控界面，以提高用户体验。这一部分主要包括以下内容：</p>
+<ul>
+<li>
+<p>触控交互方式：介绍了触控界面的交互方式，包括点击、拖动、捏合等，以及它们的使用场景。</p>
+</li>
+<li>
+<p>用户反馈机制：讲解了如何设计有效的用户反馈机制，以便用户能够清楚地了解他们的操作结果。</p>
+</li>
+<li>
+<p>动效设计：探讨了如何设计简单、流畅和自然的动效，以提高用户的使用体验。</p>
+</li>
+</ul>
+<h3 id="视觉设计">视觉设计</h3>
+<p>在第四部分中，作者介绍了如何使用颜色、字体、图标等视觉元素，来设计美观、易于识别的触控界面。这一部分主要包括以下内容：</p>
+<ul>
+<li>
+<p>视觉设计原则：介绍了视觉设计的基本原则，包括：平衡、对比度、一致性、简单性、可访问性。</p>
+</li>
+<li>
+<p>颜色和对比度：探讨了如何使用颜色和对比度来增强用户体验，以及如何确保设计符合无障碍标准。</p>
+</li>
+<li>
+<p>字体和排版：介绍了如何选择和使用字体和排版来提高界面的可读性和可用性。</p>
+</li>
+<li>
+<p>图标和图形设计：讲解了如何设计简单、易于识别和具有可扩展性的图标和图形。</p>
+</li>
+<li>
+<p>图像和多媒体设计：探讨了如何使用图像和多媒体元素来增强用户体验。</p>
+</li>
+</ul>
+<h3 id="实践案例研究">实践案例研究</h3>
+<p>在本书的最后一部分，作者提供了大量实用的案例研究和设计建议，以帮助读者理解如何将这些设计原则应用于实际项目中。这一部分主要包括以下内容：</p>
+<ul>
+<li>
+<p>触控应用程序的设计实践：提供了一些实际的案例，如社交应用、电子商务应用等，以帮助读者了解如何将设计原则应用于实际应用程序的设计中。</p>
+</li>
+<li>
+<p>设计流程和方法：介绍了一些实用的设计流程和方法，如用户研究、用户测试、设计原型等，以帮助读者更好地实践设计。</p>
+</li>
+</ul>
+<p>这本书提供了详细而全面的触控界面设计指南和实践案例，对于希望设计出易用、美观、高效的触控界面的设计师和开发者来说，是一本非常有价值的参考书。</p>
+<h3 id="更多阅读">更多阅读</h3>
+<blockquote>
+<p><a href="https://book.douban.com/subject/4254166/">Tapworthy: Designing Great iPhone Apps，O’Reilly，2010</a><br>
+<a href="https://bigmedium.com/">Big Medium</a><br>
+<a href="https://bigmedium.com/about/josh-clark.html">Josh Clark</a></p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI绘画Midjourney入门]]></title>
         <id>https://lionvisionblog.github.io/post/yan-jiu-san-tian-zhong-yu-ba-ai-hui-hua-gei-zheng-ru-men-liao/</id>
@@ -88,7 +178,7 @@ MidJourney-Styles-and-Keywords-Reference/Themes.md at main · willwulfken/MidJou
 <p><strong>https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#overview</strong></p>
 <p><strong>00:36</strong></p>
 <p>输入文字，调整右侧四个参数即可。</p>
-<figure data-type="image" tabindex="1"><img src="https://i0.hdslb.com/bfs/note/29c97b80bf341e2a15078205064cadddea012032.jpg" alt="https://i0.hdslb.com/bfs/note/29c97b80bf341e2a15078205064cadddea012032.jpg" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://i0.hdslb.com/bfs/note/29c97b80bf341e2a15078205064cadddea012032.jpg" alt="" loading="lazy"></figure>
 <p><strong>2.Ondoku</strong></p>
 <p><strong>https://ondoku3.com/zh-hans/</strong></p>
 <p><strong>00:52</strong></p>
